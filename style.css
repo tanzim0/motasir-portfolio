@@ -1,0 +1,50 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+.violet-color{
+    color: #d610d6;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #d610d6;
+    background-image: linear-gradient(#d610d6, rgb(94, 25, 94));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.flexible-container{
+    display: flex;
+    
+    margin-bottom: 150px;
+
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding: 30px 50px;
+}
+.patient-banner{
+    background-image: url(images/patient-bg.png);
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    background-position:left;
+}
+.half-width{
+    width: 50%;
+    
+}
+.half-width img{
+    width: 80%;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
